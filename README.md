@@ -7,7 +7,7 @@
 - テキストエディタ
   - 自由
 
-## 命名規則について<img src="https://try-saki.info/wp/wp-content/uploads/2016/11/ni.jpg" width="5%">
+## 命名規則について<img src="https://try-saki.info/wp/wp-content/uploads/2016/11/ni.jpg" width="7%">
 | 種類 | 表記方法 |例|
 ---|---|---
 |ローカル変数名|ローワーキャメル|```heartInvader```|
