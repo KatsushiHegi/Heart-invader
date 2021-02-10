@@ -7,7 +7,7 @@
 - テキストエディタ
   - 自由
 
-## 命名規則について<img src="https://user-images.githubusercontent.com/60394438/107553805-7bfb1700-6c18-11eb-9901-0b8a94659900.png" width="7%">
+## 命名規則について<img src="https://user-images.githubusercontent.com/60394438/107553805-7bfb1700-6c18-11eb-9901-0b8a94659900.png" width="13%">
 | 種類 | 表記方法 |例|
 ---|---|---
 |ローカル変数名|ローワーキャメル|```heartInvader```|
