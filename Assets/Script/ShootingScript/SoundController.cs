@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//このプログラムはスライダーにアタッチして使用してください。
+using UnityEngine;
 using UnityEngine.UI;
 
 //AudioSourceコンポーネントを自動的に追加
