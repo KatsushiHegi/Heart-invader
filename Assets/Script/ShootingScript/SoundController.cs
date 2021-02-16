@@ -12,7 +12,7 @@ public class SoundController : MonoBehaviour
         _audioSource = this.GetComponent<AudioSource>();
         ChangeVolume();
     }
-    public void ChangeVolume()
+    private void ChangeVolume()
     {
         //スライダーの値を音量に設定
         _audioSource.volume = this.GetComponent<Slider>().normalizedValue;

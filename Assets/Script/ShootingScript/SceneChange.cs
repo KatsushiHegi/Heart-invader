@@ -5,7 +5,7 @@ public class SceneChange : MonoBehaviour
 {
     // Inspector
     [SerializeField] private string _nextSceneName;
-    public void ChangeScene()
+    private void ChangeScene()
     {
         SceneManager.LoadSceneAsync(_nextSceneName);
     }
