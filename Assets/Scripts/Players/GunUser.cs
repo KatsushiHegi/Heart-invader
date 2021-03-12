@@ -13,10 +13,6 @@ public class GunUser : MonoBehaviour
         _gun = new HandGun();
         StartCoroutine(Shooting());
     }
-    void Update()
-    {
-        
-    }
     IEnumerator Shooting()
     {
         while (true)

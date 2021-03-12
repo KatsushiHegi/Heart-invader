@@ -28,6 +28,7 @@ public abstract class Gun
 
     public IEnumerator Reload()
     {
+        Debug.Log("Reloading...");
         yield return new WaitForSeconds(_reloadSpeed);
         _roundsNum = _capacity;
     }
