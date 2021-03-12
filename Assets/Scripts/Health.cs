@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     public float getRatio() => _currentHealth / _maxHealth;
 
 
+    //UnityActionで
+
     bool _isDead;
     private void Start()
     {
@@ -27,7 +29,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        _currentHealth += damage;
+        _currentHealth -= damage;
 
         _currentHealth = Mathf.Clamp(_currentHealth, 0f, _maxHealth);
 

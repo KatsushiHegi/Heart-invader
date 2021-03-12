@@ -49,6 +49,23 @@ public class PlayerInputHandller : MonoBehaviour
         return false;
     }
 
+    public bool GetReloadInput()
+    {
+        //if (CanProcessInput())
+        {
+            return Input.GetButton(PlayerConstants.BUTTON_NAME_RELOAD);
+        }
+        return false;
+    }
+    public bool GetGrenadeInput()
+    {
+        //if (CanProcessInput())
+        {
+            return Input.GetButton(PlayerConstants.BUTTON_NAME_GRENADE);
+        }
+        return false;
+    }
+
     public Vector3 GetMousePosition()
     {
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
